@@ -1,0 +1,33 @@
+h1 {
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    background-image: none;
+    text-align: center;
+    border: solid;
+    border-color: black;
+}
+
+h3 {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+}
+
+.container-fluid {
+  background-color: #6c2eb9;
+  height: 5rem   
+}
+
+.row {
+    background-color: #FF9232;
+    height: 4.7rem;
+}
+
+[class*="col-"] {
+    background-color: #00c3aa;
+    height: 4.2rem;
+    border: 2px solid rbga(0, 0, 0, 0.3);
+}
